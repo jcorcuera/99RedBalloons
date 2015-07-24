@@ -13,6 +13,7 @@
 		82080F1B1B5607140038CEE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82080F1A1B5607140038CEE4 /* Images.xcassets */; };
 		82080F1E1B5607140038CEE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82080F1C1B5607140038CEE4 /* LaunchScreen.xib */; };
 		82080F2A1B5607140038CEE4 /* _9ballonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82080F291B5607140038CEE4 /* _9ballonsTests.swift */; };
+		82080F341B6094840038CEE4 /* Balloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82080F331B6094840038CEE4 /* Balloon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		82080F231B5607140038CEE4 /* 99ballonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99ballonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82080F281B5607140038CEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82080F291B5607140038CEE4 /* _9ballonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9ballonsTests.swift; sourceTree = "<group>"; };
+		82080F331B6094840038CEE4 /* Balloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balloon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				82080F131B5607140038CEE4 /* AppDelegate.swift */,
 				82080F151B5607140038CEE4 /* ViewController.swift */,
+				82080F331B6094840038CEE4 /* Balloon.swift */,
 				82080F171B5607140038CEE4 /* Main.storyboard */,
 				82080F1A1B5607140038CEE4 /* Images.xcassets */,
 				82080F1C1B5607140038CEE4 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82080F161B5607140038CEE4 /* ViewController.swift in Sources */,
+				82080F341B6094840038CEE4 /* Balloon.swift in Sources */,
 				82080F141B5607140038CEE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				82080F2F1B5607140038CEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82080F301B5607140038CEE4 /* Build configuration list for PBXNativeTarget "99ballonsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				82080F321B5607140038CEE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
